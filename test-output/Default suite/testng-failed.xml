@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="none">
+  <test name="Default test(failed)" parallel="none" preserve-order="true">
+    <classes>
+      <class name="runner.AtlanticBooksApp">
+        <methods>
+          <include name="openwebsite"/>
+          <include name="setdriver"/>
+          <include name="login"/>
+          <include name="signup"/>
+          <include name="close"/>
+          <include name="clickonmyaccount"/>
+          <include name="performtest"/>
+        </methods>
+      </class> <!-- runner.AtlanticBooksApp -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

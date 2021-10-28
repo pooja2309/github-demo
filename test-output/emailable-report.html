@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Default test</td><td class="numi">2</td><td class="numi">2</td><td class="numi_attn">3</td><td class="numi_attn">1</td><td class="numi">28.8 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
+<tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr>
+<tr class="failedodd"><td rowspan="1">runner.AtlanticBooksApp<td><a href="#m1"><b>close</b>  </a></td><td class="numi">1</td><td>1634882712511</td><td class="numi">0</td></tr>
+<tr><th colspan="4">Default test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">runner.AtlanticBooksApp<td><a href="#m2"><b>performtest</b>  </a></td><td class="numi">1</td><td>1634882706145</td><td class="numi">6338</td></tr>
+<tr><th colspan="4">Default test &#8212; skipped</th></tr>
+<tr class="skippedodd"><td rowspan="3">runner.AtlanticBooksApp<td><a href="#m3"><b>signup</b>  </a></td><td class="numi">1</td><td>1634882712509</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m4"><b>login</b>  </a></td><td class="numi">1</td><td>1634882712506</td><td class="numi">0</td></tr><tr class="skippedodd"><td><a href="#m5"><b>clickonmyaccount</b>  </a></td><td class="numi">1</td><td>1634882712499</td><td class="numi">1</td></tr>
+<tr><th colspan="4">Default test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="2">runner.AtlanticBooksApp<td><a href="#m6"><b>openwebsite</b>  </a></td><td class="numi">1</td><td>1634882695117</td><td class="numi">11026</td></tr><tr class="passedodd"><td><a href="#m7"><b>setdriver</b>  </a></td><td class="numi">1</td><td>1634882683813</td><td class="numi">11282</td></tr>
+</table>
+<h1>Default test</h1>
+<a id="m1"></a><h2>runner.AtlanticBooksApp:close</h2>
+<div style="padding-left:3em">
+<p>chrome not reachable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;DESKTOP-A93J1VV&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38c4680173c482181fbd174c98b47d4e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+<br/>at runner.AtlanticBooksApp.close(AtlanticBooksApp.java:114)
+<br/>23 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>runner.AtlanticBooksApp:performtest</h2>
+<div style="padding-left:3em">
+<p>chrome not reachable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;DESKTOP-A93J1VV&apos;, ip: &apos;192.168.1.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\pooja\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 38c4680173c482181fbd174c98b47d4e</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+<br/>at java.lang.reflect.Constructor.newInstance(Unknown Source)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+<br/>at utility.Screenshots.capture(Screenshots.java:15)
+<br/>at utility.Extentreports.startTest(Extentreports.java:27)
+<br/>at runner.AtlanticBooksApp.performtest(AtlanticBooksApp.java:58)
+<br/>25 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>runner.AtlanticBooksApp:signup</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>runner.AtlanticBooksApp:login</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>runner.AtlanticBooksApp:clickonmyaccount</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>runner.AtlanticBooksApp:setdriver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>runner.AtlanticBooksApp:openwebsite</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

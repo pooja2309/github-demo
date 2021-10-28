@@ -1,0 +1,8 @@
+18:15:32.536 [main] INFO  runner.AtlanticBooksApp - searched products
+18:15:37.166 [main] INFO  runner.AtlanticBooksApp - navigating to account
+18:15:40.463 [main] INFO  runner.AtlanticBooksApp - Login
+18:15:41.594 [main] INFO  runner.AtlanticBooksApp - Login
+18:15:46.693 [main] INFO  runner.AtlanticBooksApp - Signup
+18:15:46.695 [main] INFO  runner.AtlanticBooksApp - Closure
+18:17:08.537 [main] INFO  runner.AtlanticBooksApp - getting browser name
+18:17:11.357 [main] INFO  runner.AtlanticBooksApp - setting chrome driver

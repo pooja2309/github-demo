@@ -1,0 +1,3 @@
+13:08:11.288 [main] INFO  runner.AtlanticBooksApp - getting browser name
+13:08:19.803 [main] INFO  runner.AtlanticBooksApp - setting chrome driver
+13:09:33.838 [main] INFO  runner.AtlanticBooksApp - Closure
